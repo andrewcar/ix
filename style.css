@@ -44,6 +44,12 @@ h2 {
           align-items: stretch;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
 .box {
   width: 25%;
   height: 150px;
