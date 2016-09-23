@@ -51,6 +51,17 @@ img {
     width: auto\9;
 }
 
+.button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: #BF0000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 42px;
+}
+
 button:hover span {
     display:none;
 }
