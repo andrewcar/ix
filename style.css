@@ -51,16 +51,12 @@ img {
     width: auto\9;
 }
 
-button.numerals {
+button:hover span {
     display:none;
 }
 
-button:hover .numbers {
-    display: none;
-}
-
-button:hover .numerals {
-    display: inline;
+button:hover:before {
+    content: "9&#0149;30&#0149;2016";
 }
 
 .box {
