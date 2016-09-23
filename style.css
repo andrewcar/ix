@@ -51,6 +51,18 @@ img {
     width: auto\9;
 }
 
+button.numerals {
+    display:none;
+}
+
+button:hover .numbers {
+    display: none;
+}
+
+button:hover .numerals {
+    display: inline;
+}
+
 .box {
   width: 25%;
   height: 150px;
