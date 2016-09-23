@@ -66,11 +66,11 @@ a.button {
     font-size: 50px;
 }
 
-a:hover span {
+a.button:hover span {
     display:none;
 }
 
-a:hover:before {
+a.button:hover:before {
     content: "9 • 3 0 • 2 0 1 6";
 }
 
