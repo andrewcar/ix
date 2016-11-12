@@ -7,7 +7,17 @@
   </head>
   <body>
   <center>
-    <img class="center fit" src="ix_logo.png" alt="Skull" style="PADDING-TOP: 40px" style="PADDING-BOTTOM: 40px">
+    <img class="center fit" src="ix_logo.png" alt="Skull" style="PADDING-TOP: 40px">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
     <br>
     <br>
     <br>
