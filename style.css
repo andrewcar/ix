@@ -46,12 +46,13 @@ h2 {
 }
 
 img {
-    max-height: auto;
+    max-height: 50%;
     max-width: auto;
 }
 
 .landscape {
 	height: 400px;
+	width: 400px
 }
 
 a.button {
