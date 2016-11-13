@@ -51,11 +51,6 @@ img {
 	height: 200px;
 }
 
-.landscape {
-	height: 400px;
-	width: 400px
-}
-
 a.button {
     appearance: button;
     text-decoration: none;
