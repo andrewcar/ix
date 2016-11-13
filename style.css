@@ -46,7 +46,7 @@ h2 {
 }
 
 img {
-    max-height: 69%;
+    max-height: auto;
     max-width: auto;
 }
 
