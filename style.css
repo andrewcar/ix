@@ -51,6 +51,15 @@ img {
 	width: auto;
 }
 
+#landscape {
+	max-width: 60%;
+	position: absolute;
+	bottom: 22%;
+	right: 8%;
+	width: auto;
+	height: auto;
+}
+
 a.button {
     appearance: button;
     text-decoration: none;
