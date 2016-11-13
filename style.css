@@ -46,8 +46,9 @@ h2 {
 }
 
 img {
-    max-height: 50%;
-    max-width: auto;
+    	max-height: 80%;
+    	max-width: auto;
+	height: 200px;
 }
 
 .landscape {
