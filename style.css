@@ -50,6 +50,11 @@ img {
     max-width: 100%;
 }
 
+.landscape {
+	height: 30px;
+	width: 80px;
+}
+
 a.button {
     appearance: button;
     text-decoration: none;
