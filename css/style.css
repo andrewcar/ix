@@ -6,7 +6,7 @@ body {
 
 @font-face {
 	font-family: perpetua-titling-mt-light;
-	src: url('perpetua-titling-mt-light.ttf');
+	src: url('../fonts/perpetua-titling-mt-light.ttf');
 }
 
 h1, h2, h3, h4, h5, p, a, button {
