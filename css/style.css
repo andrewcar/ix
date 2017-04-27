@@ -4,9 +4,24 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+.bgIMG {
+  opacity: 0.9;
+  overflow: hidden;
+  z-index: -1000;
+}
+  .bandPhoto {
+    z-index: -1100;
+  }
+  .bgGradient {
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,1)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,1)); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)); /*Standard*/
+  }
+
 .flex-parent {
   display: flex;
-  min-height: 92vh;
+  min-height: 90vh;
 }
   .flex-one {
     align-self: flex-end;
