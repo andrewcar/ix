@@ -1,8 +1,14 @@
+body {
+    color: #fff;
+    background-color: #000;
+    text-rendering: optimizeLegibility;
+}
+
 .flex-parent {
   display: flex;
-  height: 100vh;
+  min-height: 92vh;
 }
-  .flex-child {
+  .flex-one {
     align-self: flex-end;
   }
 
@@ -10,6 +16,18 @@
   display: inline;
   padding-left: 1.25rem;
 }
+
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+}
+
+a {
+  color: #bfbfbf;
+  text-decoration: none;
+}
+  a:hover {
+    color: #fff;
+  }
 
 /*
 
