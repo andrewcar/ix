@@ -1,10 +1,15 @@
 .flex-parent {
   display: flex;
-  height: 100%;
+  height: 100vh;
 }
   .flex-child {
     align-self: flex-end;
   }
+
+.list.horizontal li {
+  display: inline;
+  padding-left: 1.25rem;
+}
 
 /*
 
