@@ -1,5 +1,7 @@
+/*
+
 $(document).on("mousemove", function (event) {
 
-  $("img.bandPhoto").css("width", event.pageX)
+  $("img.bandPhoto").css("width", event.page)
 
 })
