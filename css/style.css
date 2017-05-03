@@ -1,0 +1,140 @@
+body {
+    color: #fff;
+    text-rendering: optimizeLegibility;
+    background: #000 url(../imgs/IX-13.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.bgGradient {
+  z-index: -1;
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)); /*Standard*/
+}
+
+.flex-parent {
+  display: flex;
+  min-height: 88vh;
+}
+  .flex-one {
+    align-self: flex-end;
+  }
+
+.list.horizontal li {
+  display: inline;
+  padding-left: 1.25rem;
+}
+
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  letter-spacing: 0.25rem;
+}
+
+a {
+  color: #bfbfbf;
+  text-decoration: none;
+}
+  a:hover {
+    color: #fff;
+  }
+
+nav .link {
+  text-transform: uppercase;
+}
+  .border-box {
+      box-sizing: border-box;
+  }
+
+  .br-100 {
+      border-radius: 100%;
+  }
+
+  .dib {
+      display: inline-block;
+  }
+
+  .dt {
+      display: table;
+  }
+
+  .dtc {
+      display: table-cell;
+  }
+
+  .h2 {
+      height: 2rem;
+  }
+
+  .link {
+      text-decoration: none;
+      transition: color .15s ease-in;
+  }
+
+  .link:link, .link:visited {
+      transition: color .15s ease-in;
+  }
+
+  .link:hover {
+      transition: color .15s ease-in;
+  }
+
+  .link:active {
+      transition: color .15s ease-in;
+  }
+
+  .link:focus {
+      transition: color .15s ease-in;
+      outline: 1px dotted currentColor;
+  }
+
+  .w2 {
+      width: 2rem;
+  }
+
+  .w-25 {
+      width: 25%;
+  }
+
+  .w-75 {
+      width: 75%;
+  }
+
+  .w-100 {
+      width: 100%;
+  }
+
+  .pa3 {
+      padding: 1rem;
+  }
+
+  .mr3 {
+      margin-right: 1rem;
+  }
+
+  .tr {
+      text-align: right;
+  }
+
+  .f6 {
+      font-size: .7rem;
+  }
+
+  .v-mid {
+      vertical-align: middle;
+  }
+
+  @media screen and (min-width: 30em) {
+      .ph5-ns {
+          padding-left: 4rem;
+          padding-right: 4rem;
+      }
+
+      .mr4-ns {
+          margin-right: 2rem;
+      }
+
+      .f5-ns {
+          font-size: 1rem;
+      }
+  }
