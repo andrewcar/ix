@@ -22,13 +22,17 @@ body {
     align-self: flex-end;
   }
 
+ul, li {
+  list-style-type: none;
+}
+
 .list.horizontal li {
   display: inline;
   padding-left: 1.25rem;
 }
 
 h1 {
-  font-family: 'Alfa Slab One', sans-serif;
+  font-family: 'Alfa Slab One', 'Open Sans', sans-serif;
   letter-spacing: 0.25rem;
 }
 
